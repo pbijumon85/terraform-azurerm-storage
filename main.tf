@@ -12,5 +12,6 @@ resource "azurerm_storage_account" "mystorage" {
 
   tags = {
     environment = "${var.env}"
+    usedby ="biju"
   }
 }
